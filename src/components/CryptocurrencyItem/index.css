@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+
+.list-row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .list-row-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.currency-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 12px;
+  }
+}
+
+.currency-name {
+  font-size: 13px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-name {
+    font-size: 18px;
+  }
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-between;
+}
+.value {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin: 0px;
+  margin-left: 8px;
+  text-align: right;
+  width: 52px;
+}
+
+@media screen and (min-width: 576px) {
+  .value {
+    width: 72px;
+    font-size: 18px;
+    margin-left: 32px;
+  }
+}

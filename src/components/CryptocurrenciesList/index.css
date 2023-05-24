@@ -1,0 +1,112 @@
+/* Write your CSS code here */
+
+.crypto-currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 106px;
+}
+
+.heading {
+  color: #00e7ff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .heading {
+    font-size: 49px;
+    margin-top: 40px;
+  }
+}
+
+.image {
+  width: 370px;
+}
+
+@media screen and (min-width: 576px) {
+  .image {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.crypto-currency-list {
+  border: solid 4px #00e7ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* width: 90%; */
+  margin-top: 40px;
+  align-self: stretch;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 576px) {
+  .list-header {
+    padding: 18px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+.values-container {
+  display: flex;
+  align-items: center;
+}
+
+.row-header {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .row-header {
+    font-size: 24px;
+  }
+}
+
+.row-value-header {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  margin-left: 8px;
+  text-align: right;
+  width: 52px;
+}
+
+@media screen and (min-width: 576px) {
+  .row-value-header {
+    font-size: 24px;
+    margin-left: 32px;
+    width: 72px;
+  }
+}
+
+.list-rows {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .list-rows {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
